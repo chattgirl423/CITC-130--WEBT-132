@@ -1,0 +1,136 @@
+/* Global Styles */
+
+body {
+    background-color: #011126;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: #011126;
+}
+
+a:hover {
+    color: #A6170A;
+    text-decoration: none;
+}
+
+#container {
+    background-color: white;
+    width: 75%;
+    margin: 20px auto;
+}
+
+img {
+    border: 4px solid #072B59;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #A6170A;
+}
+
+/* Desktop Styles */
+
+nav {
+    background-color: #011126;
+    padding: 5px 0;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #A6751B;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 100px;
+    color: #A6170A;
+    text-shadow: 2px 2px 2px #011126;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    width: 50%;
+}
+
+#lower {
+    display: flex;
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #072B59;
+    width: 33.33%;
+    border-radius: 10px;
+
+}
+
+.col img {
+    border: none;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr {
+    width: 95%;
+}
+
+.button {
+    display: block;
+    background-color: #A6170A;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    color: #A6751B;
+}
+
+
+#xpacs {
+    display: flex;
+}
+
+.xpaccover {
+    margin: 10px;
+}
+
+.xpaccover img {
+    width: 100%;
+
+}
