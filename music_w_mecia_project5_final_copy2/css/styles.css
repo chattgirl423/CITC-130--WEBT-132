@@ -1,0 +1,194 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 3px solid #B0DAF2;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #B0DAF2;
+    background-image: url("/music_w_mecia_project5_final_copy2/images/red_orange_blue.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    color: #EFA141;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.hero {
+    background-color: #011126;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+#container {
+    background-color: #052A59;
+    opacity: 87%;
+    padding: 30px;
+    border: 3px solid #D9A08B;
+
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #C22514;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a {
+    color: #EFA141;
+}
+
+a:hover {
+    color: #C22514;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+nav {
+    background-color: #011126;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #EFA141;
+    background-color: #C22514;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #011126;
+    border-radius: 5px;
+}
+
+nav li a:hover {
+    background-color: #25466F;
+    color: #FA301E;
+    font-size: 30px;
+    border: 1px solid #B0DAF2;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #C22514;
+    text-shadow: 2px 2px 2px #011126;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    /* border: 2px solid #D9A08B; */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 2px solid #052A59;
+    padding: 10px;
+
+
+}
+
+.col {
+    border: 2px solid #D9A08B;
+    margin: 10px;
+    padding: 10px;
+    color: #;
+
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #011126;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px dotted #A6751B;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #B0DAF2;
+}
+
+/* Tablet Styles */
+
+@media(min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 240px;
+
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    #lower {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .col img {
+        width: 75%;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width:1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower {
+        width: 100%;
+        display: flex
+    }
+
+    .col {
+        width: 33.33%;
+    }
+}
