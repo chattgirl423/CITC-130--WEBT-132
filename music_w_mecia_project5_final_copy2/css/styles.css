@@ -9,7 +9,7 @@ img {
 
 body {
     background-color: #B0DAF2;
-    background-image: url("/music_w_mecia_project5_final_copy2/images/red_orange_blue.jpg");
+    background-image: url("../images/red_orange_blue.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
